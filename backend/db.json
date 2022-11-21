@@ -47,6 +47,24 @@
       "autoria": "orlando cordeiro",
       "modelo": "modelo1",
       "id": 8
+    },
+    {
+      "conteudo": "O resultado do programa é relativo o nível de conhecimento do programador.",
+      "autoria": "rangelthr",
+      "modelo": "modelo1",
+      "id": 9
+    },
+    {
+      "conteudo": "Sou só um vírus, querendo escapar, dos programadores da vida.",
+      "autoria": "wesley d'amico",
+      "modelo": "modelo2",
+      "id": 10
+    },
+    {
+      "conteudo": "Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.",
+      "autoria": "thales valentim",
+      "modelo": "modelo1",
+      "id": 11
     }
   ]
 }

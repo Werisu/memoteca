@@ -11,11 +11,15 @@ const API = environment.API;
 export class PensamentoService {
   constructor(private http: HttpClient) {}
 
-  public listar(pagina: number): Observable<Pensamento[]> {
+  public listar(pagina: number, filtro: string): Observable<Pensamento[]> {
     const itensPorPagina = 6;
     let params = new HttpParams()
     .set("_page", pagina)
     .set("_limit", itensPorPagina);
+
+    if(filtro?.trim().length > 2) {
+      params = params.set("q", filtro)
+    }
 
     return this.http.get<Pensamento[]>(`${API}/pensamentos`, {
       params
