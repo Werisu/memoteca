@@ -31,8 +31,6 @@ export class ListarPensamentoComponent implements OnInit {
   }
 
   pesquisarPensamentos(){
-    console.log('oi');
-
     this.haMaisPensamentos = true;
     this.paginaAtual = 1;
     this.pensamentoService.listar(this.paginaAtual, this.filtro)

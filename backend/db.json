@@ -1,69 +1,80 @@
 {
   "pensamentos": [
     {
-      "id": 1,
       "conteudo": "Testando função de editar",
       "autoria": "Nay",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 1
     },
     {
-      "id": 2,
       "conteudo": "Estudando Angular",
       "autoria": "Dev Alura",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true,
+      "id": 2
     },
     {
-      "id": 3,
       "conteudo": "Angular é o melhor",
       "autoria": "Nay",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": true,
+      "id": 3
     },
     {
       "conteudo": "Sem café, sem código",
       "autoria": "Wellysson - CTO at AuxForTech",
       "modelo": "modelo3",
+      "favorito": true,
       "id": 4
     },
     {
-      "id": 5,
       "conteudo": "Que a força esteja com você",
       "autoria": "Mestre Yoda",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true,
+      "id": 5
     },
     {
       "conteudo": "Não é a linguagem de programação que define o programador, mas sim sua lógica.",
       "autoria": "david",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 6
     },
     {
       "conteudo": "Programador: “É simples, pode ser composto. Se firma no concreto e torna-se, abstrato.”",
       "autoria": "carlos cesar",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 7
     },
     {
       "conteudo": "Faça como um programador. Quando tudo está errado e confuso, apague tudo e recomece do zero.",
       "autoria": "orlando cordeiro",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 8
     },
     {
       "conteudo": "O resultado do programa é relativo o nível de conhecimento do programador.",
       "autoria": "rangelthr",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 9
     },
     {
       "conteudo": "Sou só um vírus, querendo escapar, dos programadores da vida.",
       "autoria": "wesley d'amico",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 10
     },
     {
       "conteudo": "Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.",
       "autoria": "thales valentim",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 11
     }
   ]
