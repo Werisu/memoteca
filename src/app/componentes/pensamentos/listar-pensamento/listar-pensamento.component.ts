@@ -9,14 +9,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListarPensamentoComponent implements OnInit {
 
-  public listaPensamentos: Pensamento[] = []
+  public listaPensamentos: Pensamento[] = [];
+  paginaAtual: number = 1;
+  haMaisPensamentos: boolean = true;
 
   constructor(private pensamentoService: PensamentoService) { }
 
   ngOnInit(): void {
-    this.pensamentoService.listar().subscribe({
+    this.pensamentoService.listar(this.paginaAtual).subscribe({
       next: listaPensamento => this.listaPensamentos = listaPensamento
     });
   }
 
+  public carregarMaisPensamentos(){
+    this.pensamentoService.listar(++this.paginaAtual).subscribe(listaPensamentos => {
+      this.listaPensamentos.push(...listaPensamentos);
+      if(!listaPensamentos.length) {
+        this.haMaisPensamentos = false
+      }
+    })
+  }
 }

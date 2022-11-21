@@ -29,6 +29,24 @@
       "conteudo": "Que a força esteja com você",
       "autoria": "Mestre Yoda",
       "modelo": "modelo1"
+    },
+    {
+      "conteudo": "Não é a linguagem de programação que define o programador, mas sim sua lógica.",
+      "autoria": "david",
+      "modelo": "modelo3",
+      "id": 6
+    },
+    {
+      "conteudo": "Programador: “É simples, pode ser composto. Se firma no concreto e torna-se, abstrato.”",
+      "autoria": "carlos cesar",
+      "modelo": "modelo2",
+      "id": 7
+    },
+    {
+      "conteudo": "Faça como um programador. Quando tudo está errado e confuso, apague tudo e recomece do zero.",
+      "autoria": "orlando cordeiro",
+      "modelo": "modelo1",
+      "id": 8
     }
   ]
 }
