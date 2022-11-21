@@ -2,9 +2,9 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Que bom que você veio",
+      "conteudo": "Testando função de editar",
       "autoria": "Nay",
-      "modelo": "modelo1"
+      "modelo": "modelo2"
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
     },
     {
       "conteudo": "Sem café, sem código",
-      "autoria": "Dev Angular",
+      "autoria": "Wellysson - CTO at AuxForTech",
       "modelo": "modelo3",
       "id": 4
     }
