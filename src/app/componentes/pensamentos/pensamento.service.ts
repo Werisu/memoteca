@@ -11,7 +11,7 @@ const API = environment.API;
 export class PensamentoService {
   constructor(private http: HttpClient) {}
 
-  public listar(pagina: number, filtro: string): Observable<Pensamento[]> {
+  public listar(pagina: number, filtro: string, favoritos: boolean): Observable<Pensamento[]> {
     const itensPorPagina = 6;
     let params = new HttpParams()
     .set("_page", pagina)
@@ -21,9 +21,14 @@ export class PensamentoService {
       params = params.set("q", filtro)
     }
 
+    if(favoritos){
+      params = params.set("favorito", true);
+    }
+
     return this.http.get<Pensamento[]>(`${API}/pensamentos`, {
       params
     });
+
   }
 
   public criar(pensamento: Pensamento): Observable<Pensamento> {
